@@ -14,7 +14,9 @@
     * `diff`
 
 ### Simple Bash Scripting
-* know the environment variable. `printenv`
+* shebang
+* exit code
+* environment variable
 
 ```bash
 $ cat > /tmp/findls.sh <<EOF
@@ -74,3 +76,15 @@ $ curl https://google.com -w %{http_code} -o /dev/null; whoami
 $ curl https://domain-should-be-error.com -o /dev/null && whoami
 $ curl https://google.com || cat /tmp/file-not-found
 ```
+
+### Script parameter
+| Parameter      | Meaning |
+| ----------- | ----------- |
+| $0      | Script name       |
+| $1   | First parameter        |
+| $2,$3,$n   | Second, third parameter, etc ...        |
+| $*   | All parameters        |
+| $#   | Number of parameters        |
+
+### Arithmetics and Functions
+Arithmetic: `$((..)), let , or expr`
