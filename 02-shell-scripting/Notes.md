@@ -83,7 +83,8 @@ $ curl https://google.com || cat /tmp/file-not-found
 | $0      | Script name       |
 | $1   | First parameter        |
 | $2,$3,$n   | Second, third parameter, etc ...        |
-| $*   | All parameters        |
+| $*   | All parameters in form of string separated by space        |
+| $@ | All parameters in form of array |
 | $#   | Number of parameters        |
 
 ### Arithmetics and Functions
