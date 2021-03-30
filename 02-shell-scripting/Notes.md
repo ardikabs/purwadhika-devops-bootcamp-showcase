@@ -89,3 +89,7 @@ $ curl https://google.com || cat /tmp/file-not-found
 
 ### Arithmetics and Functions
 Arithmetic: `$((..)), let , or expr`
+
+# References
+[Shellcheck](https://github.com/koalaman/shellcheck)
+[Google Shell Style Guide](https://google.github.io/styleguide/shellguide.html)
