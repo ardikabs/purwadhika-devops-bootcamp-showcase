@@ -19,6 +19,8 @@
 * git pull
 
 ## History-related command
+* git show
+* git shortlog
 * git diff
 * git log
 * git reflog
